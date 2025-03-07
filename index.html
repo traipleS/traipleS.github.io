@@ -1,142 +1,79 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Robotics</title>
-    <link rel='stylesheet' href='index.css'>
-    <link rel='stylesheet' href='flex_training.css'>
+    <title>С 8 Марта, любимая!</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&family=Roboto:wght@300;400;500&display=swap" rel="stylesheet">
 </head>
 <body>
-
-    <!--START HEADER-->
-    <header class = 'header'>
-
-        <div class = 'container'>
-            <div class = 'header-row'>
-                <!--START BLOCK LOGO-->
-                <div class = 'header-logo'>
-                    <img class = 'logo-img' src='img/logo.png'></img>
-                    <h1 class = 'logo-title'>Robotics</h1>
-                </div>
-                <!--END BLOCK LOGO-->
-
-                <!--START BLOCK MENU-->
-                <div class = 'header-menu'>
-                    <ul class = 'menu'>
-                        <li class = 'menu-item'>
-                            <a class = 'menu-link' href ='#'>Home</a>
-                        </li>
-                        <li class = 'menu-item'>
-                            <a class = 'menu-link' href ='#'>About</a>
-                        </li>
-                        <li class = 'menu-item'>
-                            <a class = 'menu-link' href ='#metka'>Products</a>
-                        </li>
-                    </ul>
-                </div>
-                <!--END BLOCK MENU-->
-            </div>
+    <div class="hearts">
+        <!-- Сердечки для фона -->
+        <div class="heart"></div>
+        <div class="heart"></div>
+        <div class="heart"></div>
+        <div class="heart"></div>
+        <div class="heart"></div>
+    </div>
+    <div class="container">
+        <h1 class="name">Самиша</h1>
+        <div class="photos">
+            <img src="img/img1.jpg" alt="Наше фото 1" class="photo">
+            <img src="img/img2.jpg" alt="Наше фото 2" class="photo">
         </div>
-
-    </header>
-    <!--END HEADER-->
-
-    <!--START MAIN-->
-    <main class = 'main'>
-        <!--START BANNER SECTION-->
-        <section class = 'banner-section'>
-            <div class = 'container'>  
-                <div class = 'banner-text'>
-                    <h1 class = 'banner-title'>Products</h1>
-                    <div class = 'banner-description'> 
-                        <a href = '#' class = 'menu-link'>Home</a> &#x2192 <a href = '#' class = 'menu-link'>Products</a>
-                    </div>
-                </div>
-            </div>
-        </section>
-        <!--END BANNER SECTION-->
-
-        <!--START CARDS SECTION-->
-        <section class = 'cards-section'>
-            <a name = 'metka'>
-            <div class = 'container'>
-                    <a name = 'metka'></a>
-                <div class = 'cards-text'>
-                    <h1 class = 'cards-title'>Featured Robotics Products to Show</h1>
-                    <div class = 'cards-description'>Who are in extremely love width eco friendly system.</div>
-                </div>
-
-                <div class = 'cards'>
-                    <div class = 'cards-row'>
-                        <div class = 'card'>
-
-                            <img class = 'card-img' src="img/p1.png">
-                            <div class = 'card-body'>
-                                <h3 class = 'card-title'>The Upper Eye</h3>
-                                <div class = 'card-text'>Who are in extremely love with eco friendly system</div>
-                                <div class = 'card-button'>
-                                    <a class = 'card-link' href = '#'>View Details</a>
-                                </div>
-                            </div>
-
-                        </div>
-                        <div class = 'card'>
-
-                            <img class = 'card-img' src="img/p1.png">
-                            <div class = 'card-body'>
-                                <h3 class = 'card-title'>The Upper Eye</h3>
-                                <div class = 'card-text'>Who are in extremely love with eco friendly system</div>
-                                <div class = 'card-button'>
-                                    <a class = 'card-link' href = '#'>View Details</a>
-                                </div>
-                            </div>
-
-                        </div>
-                        <div class = 'card'>
-
-                            <img class = 'card-img' src="img/p1.png">
-                            <div class = 'card-body'>
-                                <h3 class = 'card-title'>The Upper Eye</h3>
-                                <div class = 'card-text'>Who are in extremely love with eco friendly system</div>
-                                <div class = 'card-button'>
-                                    <a class = 'card-link' href = '#'>View Details</a>
-                                </div>
-                            </div>
-
-                        </div>
-                    </div>
-                    
-                </div>
-
-            </div>
-        </section>
-        <!--START CARDS SECTION-->
-    </main>
-    <!--END MAIN-->
-
-    <!--START FOOTER-->
-    <footer class = 'footer'>
-        <div class = 'container'>
-            <div class = 'footer-row'>
-                <div class = 'search'>
-                    <div class = 'copyright'>Copyright 2019 ALL right reserved By....</div>
-                    <div class="footer-search">
-                        <input type="text" class="footer-search-input">
-                        <button class="footer-search-button">Subscribe</button>
-                    </div>
-                </div>
-                <div class = 'social-networks'>
-                    <a href="#"><img class = 'footer-logo' src='img/vk.png'></a>
-                    <a href="#"><img class = 'footer-logo' src='img/instagram.png'></a>
-                    <a href="#"><img class = 'footer-logo' src='img/youtube.png'></a>
-                    <a href="#"><img class = 'footer-logo' src='img/facebook.png'></a>
-                </div>
-            </div>
+        <p class="message">С 8 Марта, моя любимая! Ты — самое прекрасное, что есть в моей жизни!</p>
+        <button class="surprise-button">Нажми на меня!</button>
+        <button class="background-button">Изменить фон</button>
+        <input type="file" id="background-input" accept="image/*" style="display: none;">
+    </div>
+    <div class="popup">
+        <div class="popup-content">
+            <span class="close">&times;</span>
+            <p>Ты самая красивая, добрая и нежная! Я тебя люблю! 💖</p>
         </div>
-    </footer>
-    <!--END FOOTER-->
+    </div>
+
+    <script>
+        // Открытие всплывающего окна
+        const surpriseButton = document.querySelector('.surprise-button');
+        const popup = document.querySelector('.popup');
+        const closeButton = document.querySelector('.close');
+    
+        surpriseButton.addEventListener('click', () => {
+            popup.style.display = 'flex';
+        });
+    
+        closeButton.addEventListener('click', () => {
+            popup.style.display = 'none';
+        });
+    
+        // Закрытие окна при клике вне его
+        window.addEventListener('click', (event) => {
+            if (event.target === popup) {
+                popup.style.display = 'none';
+            }
+        });
+    
+        // Изменение фона
+        const backgroundButton = document.querySelector('.background-button');
+        const backgroundInput = document.getElementById('background-input');
+    
+        backgroundButton.addEventListener('click', () => {
+            backgroundInput.click();
+        });
+    
+        backgroundInput.addEventListener('change', (event) => {
+            const file = event.target.files[0];
+            if (file) {
+                const reader = new FileReader();
+                reader.onload = function(e) {
+                    document.body.style.backgroundImage = `url(${e.target.result})`;
+                };
+                reader.readAsDataURL(file);
+            }
+        });
+    </script>
 
 </body>
 </html>
